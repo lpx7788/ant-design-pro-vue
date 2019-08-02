@@ -18,7 +18,7 @@ const colorList = [
     key: '明青', color: '#13C2C2'
   },
   {
-    key: '极光绿', color: '#52C41A'
+    key: '主题蓝', color: '##1890ff'
   },
   {
     key: '拂晓蓝（默认）', color: '#1890FF'

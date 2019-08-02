@@ -1,24 +1,20 @@
 <template>
   <div class="logo">
     <router-link :to="{name:'dashboard'}">
-      <LogoSvg alt="logo" />
+      <img src="../../assets/logo.png" style="width:28px;height:28px" alt="">
       <h1 v-if="showTitle">{{ title }}</h1>
     </router-link>
   </div>
 </template>
 
 <script>
-import LogoSvg from '@/assets/logo.svg?inline'
 
 export default {
   name: 'Logo',
-  components: {
-    LogoSvg
-  },
   props: {
     title: {
       type: String,
-      default: 'Ant Design Pro',
+      default: 'AIO商城后台',
       required: false
     },
     showTitle: {

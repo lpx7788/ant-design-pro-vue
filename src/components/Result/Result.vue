@@ -70,7 +70,7 @@ export default {
       margin-bottom: 24px;
     }
     .success {
-      color: #52c41a;
+      color: #1890ff;
     }
     .error {
       color: red;

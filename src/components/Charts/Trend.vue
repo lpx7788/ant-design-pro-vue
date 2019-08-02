@@ -74,7 +74,7 @@ export default {
         color: #f5222d;
       }
       &.down {
-        color: #52c41a;
+        color: #1890ff;
         top: -1px;
       }
     }

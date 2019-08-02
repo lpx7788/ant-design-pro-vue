@@ -118,7 +118,7 @@ const levelColor = {
   0: '#ff0000',
   1: '#ff0000',
   2: '#ff7e05',
-  3: '#52c41a'
+  3: '#1890ff'
 }
 export default {
   name: 'Register',
@@ -285,7 +285,7 @@ export default {
     }
 
     &.success {
-      color: #52c41a;
+      color: #1890ff;
     }
 
   }
